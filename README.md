@@ -1,85 +1,66 @@
 README.gen
+favicon
 
 Table of Contents
-
-Overview
-
+Description
 Installation
-
 Usage
-
 Examples
-
 License
-
-Overview
-
-README.gen is a robust Streamlit-powered application that simplifies the creation of professional README.md files. By utilizing AI, it analyzes your code snippets and automatically generates well-structured documentation, significantly reducing the effort and time needed for project documentation.
+Description
+README.gen is a powerful Streamlit application designed to streamline the process of creating professional README.md files. By leveraging the power of AI, README.gen analyzes your code snippets and automatically generates comprehensive and well-structured documentation, minimizing the effort and time required for project documentation.
 
 Installation
+Follow these steps to install the necessary dependencies and set up the application:
 
-To set up and install the necessary dependencies, follow these steps:
-
-Clone the Repository
+Clone the repository:
 
 git clone https://github.com/mananrg/Streamlit-README.gen
 cd readmegen
-
-Create a Virtual Environment (Optional but Recommended)
+Create a virtual environment (optional but recommended):
 
 python -m venv streamlit
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-Install Dependencies
+Install the required dependencies:
 
 pip install -r requirements.txt
-
-Configure OpenAI API Key
-
-Create a secrets.toml file inside the .streamlit directory and add your OpenAI API key:
+Add your OpenAI API key to Streamlit secrets: Create a file named secrets.toml in the .streamlit directory of the project and add your OpenAI API key:
 
 OPENAI_API_KEY = "your_openai_api_key_here"
-
 Usage
-
-Launch the Application
+Run the application:
 
 streamlit run app.py
+Upload your code files:
 
-Upload Code Files
+Click on the "Upload your code files" button to upload one or more code files that need to be documented.
+Generate the README:
 
-Click on the "Upload your code files" button to add one or more code files that require documentation.
+Click on the "Generate README" button. If you haven't uploaded any files, you will be prompted to do so.
+Upon generating, the application will display the Markdown content of the README on the left column and a preview on the right column.
+Download the generated README:
 
-Generate the README
-
-Click the "Generate README" button. If no files have been uploaded, you will be prompted to do so.
-
-Once generated, the left column will display the README’s Markdown content, while the right column will show a preview.
-
-Download the README
-
-Click on the "Download README.md" button to save the generated README.md file.
-
+Click on the "Download README.md" button to download the generated README file.
 Examples
-
-Below is an example demonstrating how README.gen generates documentation for a simple code snippet:
+Here's an example walkthrough of the generated README.md file by README.gen:
 
 Example Code Snippet
+Consider the following code snippet:
 
-# A simple Python script
+# A simple Python example
 def hello_world():
     print("Hello, World!")
-
-Generated README Output
+This code would result in a generated README content similar to:
 
 Hello World Example
+Description
+This project contains a simple Python script to print "Hello, World!" to the console.
 
-Description:
-This project features a basic Python script that prints "Hello, World!" to the console.
-
-Usage:
-Run the script using the following command:
+Usage
+Run the following command to execute the script:
 
 python hello_world.py
+Examples
+The script will output:
 
-Example Output:
+Hello, World!
