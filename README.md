@@ -13,10 +13,6 @@ README.gen is a powerful Streamlit application designed to streamline the proces
 Installation
 Follow these steps to install the necessary dependencies and set up the application:
 
-Clone the repository:
-
-git clone https://github.com/mananrg/Streamlit-README.gen
-cd readmegen
 Create a virtual environment (optional but recommended):
 
 python -m venv streamlit
