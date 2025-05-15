@@ -95,5 +95,5 @@ This project is licensed under the terms of the MIT license.
 ---
 
 <div class="footer">
-    <p>Developed with ❤ by [Manan R. Gandhi](https://fluttersolutions.in)</p>
+    <p>Developed with ❤ by [Manan R. Gandhi | Sahil Gawande](https://fluttersolutions.in)</p>
 </div>
